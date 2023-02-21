@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Official Portfolio Website</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/7420953557.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+<div id="header">
+    <div class="container">
+        <nav>
+            <img src="imgs/logo1.png" class="logo">
+            <ul id="sidemenu">
+                <li><a href="#header">HOME</a></li>
+                <li><a href="#about">ABOUT</a></li>
+                <li><a href="#services">SERVICES</a></li>
+                <li><a href="#portfolio">PORTFOLIO</a></li>
+                <li><a href="#contact">CONTACT</a></li>
+                <i class="fa-solid fa-circle-xmark" onclick="clocemenu()"></i>
+            </ul>
+            <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+        </nav>
+        <div class="header-text">
+            <p>UI/UX Designer</p>
+            <h1>HI , I'm <span>Thisara</span><br>Shyamal From Sri lanka</h1>
+        </div>
+    </div>
+</div>
+
+<!----------------about page ---------------->
+
+<div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+                <img src="imgs/user1jpg.png">
+            </div>
+            <div class="about-col-2">
+                <h1 class="subtitle">About Me</h1>
+                <p>
+                    I am a dedicated, organized and methodical individual. I have good interpersonal skills, am an excellent 
+                    team worker and am keen and very willing to learn and develop new skills. I am reliable and dependable
+                    and often seek new responsibilities within a wide range of employment areas. I have an active and dynamic 
+                    approach to work and getting things done. I am determined and decisive. I identify and develop opportunities.
+                </p>
+                <div class="tab-titles">
+                    <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                    <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                    <p class="tab-links" onclick="opentab('education')">Education</p>
+                </div>
+                
+                <div class="tab-contents active-tab" id="skills">
+                    <ul>
+                        <li><span>UI/UX</span><br>Designing Web/App interfaces</li>
+                        <li><span>Web development</span><br> Web app development</li>
+                        <li><span>App Development </span><br>Bulding Android /Ios Apps</li>
+                    </ul>
+                </div> 
+
+                <div class="tab-contents" id="experience">
+                    <ul>
+                        <li><span>2021 - Current</span><br>UI/UX Design Training at Education
+                        Institute</li>
+                        <li><span>2019 - 2021</span><br> team lead at StarApp LLC.</li>
+                        <li><span>2016 - 2017</span><br>UI/UX Design Executive at coin Digital Ltd.</li>
+                        <li><span>20116 - 2017</span><br> internship at ekart eCommerce.</li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="education">
+                    <ul>
+                        <li><span>2016</span><br>training </li>
+                        <li><span>2016</span><br> training</li>
+                        <li><span>2017</span><br>training</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<!---------------------------------Services---------------------------------->
+<div id="services">
+    <div class="container">
+        <h1 class="subtitle">My Services</h1>
+        <div class="services-list">
+            <div>
+                <i class="fa-solid fa-laptop-code"></i>
+                <h2>Web Design</h2>
+                <p>There are many philosophies shaping healthcare services around the world, 
+                and this article glances at some prominent examples</p>
+                <a href="#">Learn more</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-brush"></i>
+                <h2>UI/UX Design</h2>
+                <p>There are many philosophies shaping healthcare services around the world, 
+                and this article glances at some prominent examples</p>
+                <a href="#">Learn more</a>
+            </div>
+            <div>
+                <i class="fa-brands fa-artstation"></i>
+                <h2>App Design</h2>
+                <p>There are many philosophies shaping healthcare services around the world, 
+                and this article glances at some prominent examples</p>
+                <a href="#">Learn more</a>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-------------------------------portfolio------------------------->
+<div id="portfolio">
+    <div class="container">
+        <h1 class="subtitle">My Work</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="imgs/work-1.png">
+                <div class="layer">
+                    <h3>Social Media App</h3>
+                    <p>This is a website which allows users, who sign-up for free profiles, 
+                    to connect with friends,work colleagues or people they don't know, online</p>
+                    <a href="#"><i class="fa-solid fa-link-slash"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="imgs/work-2.png">
+                <div class="layer">
+                    <h3>Music Media App</h3>
+                    <p>This is a website which allows users, who sign-up for free profiles, 
+                    to connect with friends,work colleagues or people they don't know, online</p>
+                    <a href="#"><i class="fa-solid fa-link-slash"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="imgs/work-3.png">
+                <div class="layer">
+                    <h3>online store App</h3>
+                    <p>This is a website which allows users, who sign-up for free profiles, 
+                    to connect with friends,work colleagues or people they don't know, online</p>
+                    <a href="#"><i class="fa-solid fa-link-slash"></i></a>
+                </div>
+            </div>
+        </div>
+        <a href="#" class="btn">See more</a>
+    </div>
+</div>
+
+<!----------------------contect------------->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="subtitle">Contact Me</h1>
+                <p><i class="fa-sharp fa-solid fa-paper-plane"></i> keve64954@gmail.com</p>
+                <p><i class="fa-solid fa-square-phone"></i> 94 76-502-5485</p>
+                <div class="social-icon">
+                    <a href="https://www.facebook.com/"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="https://www.linkedin.com/home?originalSubdomain=lk"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="https://www.instagram.com/"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="http://www.twitter.com/"><i class="fa-brands fa-twitter"></i></a>
+                </div>
+                <a href="imgs/my-cv.pdf" download class="btn btn2">Downlode CV</a>
+            </div>
+            <div class="contact-right">
+                <form name="submit-to-google-sheet"> 
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="Email" placeholder="Your Email" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+                <span id="msg"></span>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>Copyright © Tink . Made with <i class="fa-solid fa-shield-heart"></i> Thisara shyamal</p>
+    </div>
+</div>
+
+<script>
+
+    var tablinks = document.getElementsByClassName("tab-links")
+    var tabcontents = document.getElementsByClassName("tab-contents")
+
+    function opentab (tabname){
+        for (tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+        for (tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab")
+
+    }
+
+</script>
+
+<script>
+    var sidemeu =document.getElementById("sidemenu");
+
+    function openmenu(){
+        sidemeu.style.right = "0";
+    }
+    function clocemenu(){
+        sidemeu.style.right = "-200px";
+    }
+
+</script>
+
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbzR9MBg3PJrWg_IhkAtWP6UbSW8JLX2saeuEKxcXovFE9MwqZMpFuI9gpi1v2PpCeH0Ig/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg =document.getElementById("msg")
+  
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML = "Message sent successfully !"
+            setTimeout(function(){
+                msg.innerHTML= ""
+            },4000)
+            form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+
+</body>
+</html>
